@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*--- HEADER ---*/
+header{
+    width:100% ;
+    height: 80px;
+    background-color: rgb( 244, 67, 54 );
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.logo{
+    float: left;
+    font-size: 23px;
+    margin-left: 45px;
+}
+
+.logo h2 a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 75px;
+}
+
+.buscar{
+    display: block;
+    float: right;
+    margin-right: 65px;
+}
+
+span a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 75px;
+    font-size: 20px;
+    transition: all 300ms;
+}
+
+span a:hover{
+    border: 1px solid rgb(236, 236, 236);
+    border-radius:3px;
+    padding: 5px;
+
+    background-color: rgba(226, 220, 220, 0.4);
+}
+
+/*--- MAIN ---*/
+main{
+    max-width: 100%;
+    height: 100vh;
+    background-image: url("../img/Portada.webp");
+    background-color: rgb(85,85,85);
+    /*Propiedad para mezclar el color fondo con la imagen de fondo */
+    background-blend-mode:soft-light;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -148px;
+    overflow: hidden ;
+}
+
+.content-main{
+    width: 850px;
+    height: 200px;
+    border: 5px solid rgb(167, 152, 152);
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    margin-top: 145px;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+.content-main h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.content-main p{
+    font-size: 17px;
+    font-weight: 0;
+}
+
+span{
+    display: block;
+    text-align: center;
+}
+
+/* BUSCADOR */
+.buscador{
+    margin: 20px 20px 0px 20px;
+    height: 90px ;
+    border: 2px solid #ccc;
+    border-radius: 5px ;
+    background-color: #fafafa;
+}
+
+form{
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+form input[type="text"]{
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 30px;
+    color: rgb(165, 156, 156);
+}
+
+form input[type="text"]:focus{
+    color: black;
+}
+
+.lupa{
+    position: absolute;
+    margin-left:290px;
+    width: 50px;
+    height: 50px;
+}
+
+.lupa img{
+    width: 50px;
+}
+
+/*SECTION AND ARTICLES*/
+
+section{
+    width: 1200px;
+    height: 125vh;
+    margin: 0 auto;
+}
+
+article{
+    width: 325px;
+    height: 195px;
+    margin: 15px;
+    margin-left: 55px;
+    border: 1px solid rgb(240, 230, 230);
+    border-radius: 20px;
+    float: left;
+    box-shadow: 0 3px 15px rgb(100 100 100 / 50%);
+    transition: all 300ms;
+}
+
+article:hover{
+    transform: scale(1.1);
+}
+
+.img{
+    width: 175px;
+    margin: 0 auto;
+}
+
+.img img{
+    width: 150px;
+    height: 140px;
+}
+
+.img h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.next{
+    width: 120px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: rgb( 244, 67, 54 );
+}
+
+.next a{
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: rgb( 244, 67, 54 );
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    position:fixed;
+    bottom: 0px;
+}
